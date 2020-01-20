@@ -1,0 +1,152 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+button {
+    border: 0;
+    font-size: 70%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p1 {
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+p12 {
+    font-size: 50px;
+    font-weight: 800;
+
+
+}
+
+p2 {
+    font-size: 13.5px;
+    font-weight: 100;
+
+}
+
+p3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    display: flex;
+    padding-left: 100px;
+
+}
+
+.green {
+    color: yellowgreen;
+}
+
+.red {
+    color: red;
+}
+
+.menu {
+    display: flex;
+    padding-right: 100px;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: horizontal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container {
+    background-image: url("img/checkerboard-cross.png");
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.be {
+    display: flex;
+    flex-direction: column;
+    line-height: .9;
+}
+
+.flex1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.flex1 {
+    width: 500px;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+}
+
+.flex2,
+.flex3,
+.flex4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 400px;
+    max-width: 100%;
+    Height: 400px;
+}
+
+.flex2 {
+    background-image: url("img/appleQuinoa.jpg");
+    background-size: cover;
+}
+
+.flex3 {
+    background-image: url("img/pasta.jpg");
+    background-size: cover;
+}
+
+.flex4 {
+    background-image: url("img/shrimp.jpg");
+    background-size: cover;
+}
+
+.backwhite {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px;
+    margin-bottom: 0;
+}
+
+.backgreen {
+    background-color: yellowgreen;
+    word-spacing: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 11px 11px 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
